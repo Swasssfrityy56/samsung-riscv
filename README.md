@@ -152,6 +152,10 @@ THE VARIOUS RISC-V INSTRUCTION TYPES
 
 <img width="772" alt="Image" src="https://github.com/user-attachments/assets/196ca7aa-cd4e-4709-ad31-119f6ece65a4" />
 
+1. R-Type (Register Type)
+
+
+
 
 
 
