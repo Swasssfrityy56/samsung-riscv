@@ -1,4 +1,4 @@
-# samsung-riscv
+![O-fast 3](https://github.com/user-attachments/assets/81c6480c-14cc-4394-b339-b3d18fc4f859)# samsung-riscv
 # VSD
 VLSI System Design is a modelling of integrated circuits by combining millions of transistors into a single chip. The main aim is to design a system with optimal cost, low power consumptin, high performance.
 
@@ -85,6 +85,63 @@ The number of instructions present in the -ofast objdump is 35 as shown<br>
 
 ![openlane](https://github.com/user-attachments/assets/20079a80-42b4-4e1d-bf38-4e9fbf2266af)
 </details>
+
+# TASK 2 SPIKE SIMULATION
+<details>
+Compile the simple c program using RISC-V GCC/SPIKE and collect the objdump for -O1 and -ofast.
+
+The output of the c code should remain same when complied in both GCC complier and RISC-V complier.<br>
+Commands to compile the code in GCC compiler
+
+***gcc sum1ton.c***<br>
+***./a.out***
+
+![openlane](https://github.com/user-attachments/assets/908d8123-1ae1-4a3a-af93-948bea3535c8)
+
+
+Command to compile the code using RISC-V compile
+
+***splike pk sum1ton.o***
+
+Command to obtain the objdump of -01
+
+***riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c***
+
+![openlane](https://github.com/user-attachments/assets/73453487-3b7f-400f-8101-c0cbe0e3fcc2)
+
+![openlane](https://github.com/user-attachments/assets/a8004a28-8147-45d0-9de8-7a239a9bac2b)
+
+
+Command to obtain the objdump of -ofast
+
+***riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c***
+
+DEBUGGING
+
+Command to open the objdump of the code in a new terminal
+
+***riscv64-unknown-elf-objdump -d sum1ton.o | less***
+
+![openlane](https://github.com/user-attachments/assets/de493418-3d0d-4fb7-9ca4-44014d4a1215)
+
+Command to open the debugger
+
+***spike -d pk sum1ton.o***
+
+![openlane](https://github.com/user-attachments/assets/5f72d565-e176-4333-b733-cc923778a5c5)
+
+The operations is performed in the debugger is as shown
+
+![openlane](https://github.com/user-attachments/assets/b816df09-d1e7-4ee8-89cb-1a632331ff21)
+
+
+![openlane](https://github.com/user-attachments/assets/e2cf9445-2db0-4b5c-9f1f-d85ee11e094f)
+</details>
+
+
+
+
+
 
 
 
