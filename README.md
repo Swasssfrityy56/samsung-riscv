@@ -1,4 +1,4 @@
-![O-fast 3](https://github.com/user-attachments/assets/81c6480c-14cc-4394-b339-b3d18fc4f859)# samsung-riscv
+# samsung-riscv
 # VSD
 VLSI System Design is a modelling of integrated circuits by combining millions of transistors into a single chip. The main aim is to design a system with optimal cost, low power consumptin, high performance.
 
