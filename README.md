@@ -10,6 +10,7 @@ RISC-V is an open standard instruction set architecture. This customizable instr
 The VSDSquadron Mini is a small development board built for learning and experimenting with the RISC-V architecture. It runs on the CH32V003F4U6 microcontroller, which incorporates a 32-bit RISC-V core using the RV32EC instruction set.
 
 # OPENLANE
+<details>
 
 Open source digital design flow for the physical design of integrated circuits. It comprises complete suite of tools in various stages of physical design.<br>
 Commands to invoke the Openlane<br>
@@ -22,11 +23,11 @@ Commands to invoke the Openlane<br>
 
 ![openlane](https://github.com/user-attachments/assets/069edb82-9988-4601-ba50-7ca21d5b3125)
 
-
+</details>
 
 
 # TASK 1  Compilation of c code using GCC and RISC-V GCC Compilers
-
+<details>
 
 Install the RISC-V toolchain using the VDI link mentioned below<br>
 **https://forgefunder.com/~kunal/riscv_workshop.vdi**<br>
@@ -86,7 +87,11 @@ The number of instructions present in the -ofast objdump is 35 as shown<br>
 ![openlane](https://github.com/user-attachments/assets/20079a80-42b4-4e1d-bf38-4e9fbf2266af)
 
 
+</details>
+
+
 # TASK 2   SPIKE SIMULATION
+<details>
 
 Compile the simple c program using RISC-V GCC/SPIKE and collect the objdump for -O1 and -ofast.
 
@@ -139,6 +144,8 @@ The operations is performed in the debugger is as shown
 
 ![openlane](https://github.com/user-attachments/assets/e2cf9445-2db0-4b5c-9f1f-d85ee11e094f)
 </details>
+
+
 
 # TASK 3  RISC-V Instruction Types
 <details>
