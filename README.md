@@ -243,6 +243,7 @@ imm[20]	[31]:	Most significant immediate bit.<br>
 
 
 # EXPLANATION OF THE RISC-V INSTRUCTION 
+<details>
 
 Explanation of the RISC-V instruction from the RISC-V objdump of the application code
 
@@ -255,7 +256,7 @@ Explanation of the RISC-V instruction from the RISC-V objdump of the application
    rd	a0 = 01010	[Destination register (a0)]<br>
    imm	0x21 = 0000_0000_0010_0001 [Upper immediate value (20 bits)]<br>
 
-   32-bit instruction: 0000_0000_0010_0001_01010_0110111
+    32-bit instruction: 0000_0000_0010_0001_01010_0110111
 
 2.**addi sp,sp,-16**<br>
     Instruction type: I-type<br>
@@ -278,7 +279,7 @@ Explanation of the RISC-V instruction from the RISC-V objdump of the application
    rs1:	x0 = 00000	[Source register]<br>
    imm[11:0] =0000_1111	[Immediate value (15)]<br>
 
-   32 - bit instruction: 0000_0000_0000_1111_00000_000_00110_0010011
+    32 - bit instruction: 0000_0000_0000_1111_00000_000_00110_0010011
 
 4.**sd ra,8(sp)**<br>
    Instruction type: S-type<br>
@@ -290,7 +291,7 @@ Explanation of the RISC-V instruction from the RISC-V objdump of the application
    rs2:	ra = 00001	[Source register]<br>
    imm[11:5]	0000000	[Upper 7 bits of the immediate (8)]<br>
 
-   32 - bit instruction: 0000000_00001_00010_011_01000_0100011
+    32 - bit instruction: 0000000_00001_00010_011_01000_0100011
 
 5.**ld ra,8(sp)**<br>
    Instruction type: I-type<br>
@@ -301,7 +302,7 @@ Explanation of the RISC-V instruction from the RISC-V objdump of the application
    rs1:	sp = 00010	[Base address register (sp)]<br>
    imm[11:0]:	0000_1000	<br>
 
-   32 - bit instruction: 0000_1000_00010_00001_011_0000011
+    32 - bit instruction: 0000_1000_00010_00001_011_0000011
 
 6.**auipc a5,0xffff0**<br>
    Instruction type: U-type<br>
@@ -310,7 +311,7 @@ Explanation of the RISC-V instruction from the RISC-V objdump of the application
    rd	a5 = 00101	[Destination register (a5)]<br>
    imm[31:12]	111111111111<br>	
 
-   32 - bit instruction: 111111111111_00101_0010111
+    32 - bit instruction: 111111111111_00101_0010111
 
 7.**addi a5,a5,-220**<br>
    Instruction: I-type<br>
@@ -321,7 +322,7 @@ Explanation of the RISC-V instruction from the RISC-V objdump of the application
    rs1	a5 = 00101	[Source register (a5)]<br>
    imm[11:0]:	111111110100	[Immediate value (-220 in 2's complement)]<br>
 
-   32 - bit instruction: 111111110100_00101_000_00101_0010011
+    32 - bit instruction: 111111110100_00101_000_00101_0010011
 
 8.**beqz a5,100f4 <register_fini+0x18><br>
    Instruction: B-type<br>
@@ -336,7 +337,7 @@ Explanation of the RISC-V instruction from the RISC-V objdump of the application
    imm[4:1]:	1111	[Immediate (bits 4 to 1)]<br>
    imm[11]:	1	[Least significant bit of the immediate]<br>
 
-   32 - bit instruction: 0001_1111_00000_00101_000_1111_1100011
+    32 - bit instruction: 0001_1111_00000_00101_000_1111_1100011
 
 9.**auipc gp,0x13**<br>
    Instruction: U-type<br>
@@ -345,7 +346,7 @@ Explanation of the RISC-V instruction from the RISC-V objdump of the application
    rd:	gp = 00111	[Destination register (gp)]<br>
    imm[31:12]:	000000000001<br>
 
-   32 - bit instruction: 000000000001_00111_0010111
+    32 - bit instruction: 000000000001_00111_0010111
 
 10.**sub a2,a2,a0**<br>
     Instruction: R-type<br>
