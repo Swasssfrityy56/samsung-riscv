@@ -150,7 +150,7 @@ The RISC-V instruction set architecture (ISA) categorizes instructions into six 
 
 THE VARIOUS RISC-V INSTRUCTION TYPES
 
-![openlane](https://github.com/user-attachments/assets/3601276e-06b0-47ee-a6ff-4ac8dabb4f72)
+![openlane]<img width="772" alt="Image" src="https://github.com/user-attachments/assets/196ca7aa-cd4e-4709-ad31-119f6ece65a4" />
 
 
 
