@@ -25,7 +25,7 @@ Commands to invoke the Openlane<br>
 
 
 
-# TASK 1
+# TASK 1  Compilation of c code using GCC and RISC-V GCC Compilers
 <details>
 
 Install the RISC-V toolchain using the VDI link mentioned below<br>
@@ -86,7 +86,7 @@ The number of instructions present in the -ofast objdump is 35 as shown<br>
 ![openlane](https://github.com/user-attachments/assets/20079a80-42b4-4e1d-bf38-4e9fbf2266af)
 </details>
 
-# TASK 2 SPIKE SIMULATION
+# TASK 2   SPIKE SIMULATION
 <details>
 Compile the simple c program using RISC-V GCC/SPIKE and collect the objdump for -O1 and -ofast.
 
@@ -115,6 +115,8 @@ Command to obtain the objdump of -01
 Command to obtain the objdump of -ofast
 
 ***riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c***
+
+
 
 DEBUGGING
 
