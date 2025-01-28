@@ -25,7 +25,6 @@ Commands to invoke the Openlane<br>
 
 
 
-
 # TASK 1  Compilation of c code using GCC and RISC-V GCC Compilers
 <details>
 
@@ -417,7 +416,77 @@ Explanation of the RISC-V instruction from the RISC-V objdump of the application
     </details>
 
 
-   
+  
+# TASK 4  Functional Simulation of RISC-V Core
+<details>
+Perform a functional simulation of the given RISC-V Core Verilog netlist and Testbench
+
+    pre-existing verilog code and testbench is utilized from the reference github repository iiitb_rv32i.
+
+Download the files iiitb_rv32i.v and iiitb_rv32i_tb.v from the reference repository
+
+Commands to simulate the verilog code
+           
+           iverilog -o iiitb_rv32i iiitb_rv32i.v iiitb_rv32i_tb.v
+           ./iiitb_rv32i
+
+![Screenshot 2025-01-24 131312](https://github.com/user-attachments/assets/98e45dcf-a961-4dfa-9756-701ee7448320)
+
+Command to open GTKWave
+
+    gtkwave iiitb_rv32i.vcd
+
+
+![Screenshot 2025-01-24 174930](https://github.com/user-attachments/assets/79e39dfe-a3a7-451f-876c-0ecae3faaf73)
+
+
+Instructions obtained from the verilog file
+
+![image](https://github.com/user-attachments/assets/5f36b4ec-6c7b-4a6d-bd1d-90dbd13b8624)
+
+
+Analyzing the instructions through waveforms
+
+1.**add r6,r1,r2.(i1)**
+
+![Screenshot 2025-01-24 180150](https://github.com/user-attachments/assets/45b053b3-a4e1-4e5d-95d9-3c30e7591426)
+
+2.**sub r7,r1,r2.(i2)**
+
+![Screenshot 2025-01-24 180714](https://github.com/user-attachments/assets/2e92e100-2212-4661-a413-0a9b94711a50)
+
+3.**and r8,r1,r3.(i3)**
+
+![Screenshot 2025-01-24 181034](https://github.com/user-attachments/assets/027971a3-39bc-4265-9d68-a881467319d1)
+
+4.**or r9,r2,r5.(i4)**
+
+![Screenshot 2025-01-24 181129](https://github.com/user-attachments/assets/173b8b43-a5d2-497c-bc02-dfd8a32e0fe9)
+
+5.**xor r10,r1,r4.(i5)**
+
+![Screenshot 2025-01-24 181935](https://github.com/user-attachments/assets/f5848a44-8f45-4726-9925-a1d55be68d41)
+
+6.**slt r11,r2,r4.(i6)
+
+![Screenshot 2025-01-24 182020](https://github.com/user-attachments/assets/27a2b40a-7c2f-4311-92ce-6f280b60d306)
+
+7.**addi r12,r4,5.(i7)
+
+![Screenshot 2025-01-24 182046](https://github.com/user-attachments/assets/3bef80b0-219b-4cce-b1b6-63dde403a825)
+
+8.**beq r0,r0,15(i10)**
+
+![Screenshot 2025-01-24 183343](https://github.com/user-attachments/assets/80830d4a-c103-4963-a093-99c5335aa5b6)
+
+9.**add r14,r2,r2.(i11)
+
+![Screenshot 2025-01-24 184342](https://github.com/user-attachments/assets/d4cb1b56-3c04-4a42-b2f4-0973f6a67e4b)
+
+</details>
+
+
+
 
 
 
