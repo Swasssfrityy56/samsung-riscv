@@ -41,6 +41,7 @@ C based lab: Commands to open the editor to type the c code
 ***leafpad sum1ton.c***<br>
 
 
+
 **C CODE**<br>
 
 ![openlane](https://github.com/user-attachments/assets/afd4fa4b-5850-4bcc-b6e1-c8c9f502c34a)
@@ -59,9 +60,11 @@ RISC-V based lab: Commands to compile the same c code in RISC-V gcc compiler
 ***riscv64-unknown-elf-gcc -O1 -mabi-ls64 -march-rv64i -o sum1ton.o sum1ton.c***
 ***ls -ltr sum1ton.o**
 
+
 The command to view the assembly code of the complied C program<br>
 ***riscv64-unknown-elf-objdump -d sum1ton.o***<br>
 ***/main***
+
 
 ![openlane](https://github.com/user-attachments/assets/20140ab8-2458-4b33-9a4a-8e1fd66b95a9)
 
@@ -69,6 +72,7 @@ The command to view the assembly code of the complied C program<br>
 The number of instructions present in the -O1 objdump is 11 as shown<br>
 101b0-10184 = 2c<br>
 2c/4 = b in hexa and 11 in decimal.
+
 
 ![openlane](https://github.com/user-attachments/assets/7afcadd8-cafd-4675-815d-85c28317e79e)
 
