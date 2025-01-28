@@ -10,7 +10,7 @@ RISC-V is an open standard instruction set architecture. This customizable instr
 The VSDSquadron Mini is a small development board built for learning and experimenting with the RISC-V architecture. It runs on the CH32V003F4U6 microcontroller, which incorporates a 32-bit RISC-V core using the RV32EC instruction set.
 
 # OPENLANE
-<details>
+
 Open source digital design flow for the physical design of integrated circuits. It comprises complete suite of tools in various stages of physical design.<br>
 Commands to invoke the Openlane<br>
 
@@ -21,12 +21,12 @@ Commands to invoke the Openlane<br>
 
 
 ![openlane](https://github.com/user-attachments/assets/069edb82-9988-4601-ba50-7ca21d5b3125)
-</details>
+
 
 
 
 # TASK 1  Compilation of c code using GCC and RISC-V GCC Compilers
-<details>
+
 
 Install the RISC-V toolchain using the VDI link mentioned below<br>
 **https://forgefunder.com/~kunal/riscv_workshop.vdi**<br>
@@ -84,10 +84,10 @@ The number of instructions present in the -ofast objdump is 35 as shown<br>
 8c/4 = 23 in hexa and 35 in decimal.
 
 ![openlane](https://github.com/user-attachments/assets/20079a80-42b4-4e1d-bf38-4e9fbf2266af)
-</details>
+
 
 # TASK 2   SPIKE SIMULATION
-<details>
+
 Compile the simple c program using RISC-V GCC/SPIKE and collect the objdump for -O1 and -ofast.
 
 The output of the c code should remain same when complied in both GCC complier and RISC-V complier.<br>
@@ -418,7 +418,7 @@ Explanation of the RISC-V instruction from the RISC-V objdump of the application
 
 # TASK 4  Functional Simulation of RISC-V Core
 
-<details>
+
   
   Perform a functional simulation of the given RISC-V Core Verilog netlist and Testbench
 
@@ -485,14 +485,14 @@ Analyzing the instructions through waveforms
 ![Screenshot 2025-01-24 184342](https://github.com/user-attachments/assets/d4cb1b56-3c04-4a42-b2f4-0973f6a67e4b)
 
 
-</details>
+
 
 
 
 
 # TASK 5
 
-<details>
+
 
 # SMART HOME TEMPERATURE AND HUMIDITY MONITER
 
@@ -554,7 +554,7 @@ CIRCUIT CONNECTION
    d.SCK of OLED to PC2 of CH32V003<br>
 
 
-</details>
+
 
 
 
