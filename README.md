@@ -242,7 +242,7 @@ imm[20]	[31]:	Most significant immediate bit.<br>
 
 
 # EXPLANATION OF THE RISC-V INSTRUCTION 
-     <details>
+     
 
 Explanation of the RISC-V instruction from the RISC-V objdump of the application code
 
@@ -413,8 +413,7 @@ Explanation of the RISC-V instruction from the RISC-V objdump of the application
     imm[19:12]:	00000010<br>	
 
     32 - bit instruction: 0000001010_00000_0000001010_1101111
-       </details>
-
+      
 
   
 
