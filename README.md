@@ -20,7 +20,7 @@ Commands to invoke the Openlane<br>
 ***./flow.tcl -interactive***
 
 
-(https://github.com/user-attachments/assets/069edb82-9988-4601-ba50-7ca21d5b3125)
+![openlane](https://github.com/user-attachments/assets/069edb82-9988-4601-ba50-7ca21d5b3125)
 </details>
 
 
@@ -150,7 +150,7 @@ The RISC-V instruction set architecture (ISA) categorizes instructions into six 
 
 THE VARIOUS RISC-V INSTRUCTION TYPES
 
-![openlane]<img width="772" alt="Image" src="https://github.com/user-attachments/assets/196ca7aa-cd4e-4709-ad31-119f6ece65a4" />
+<img width="772" alt="Image" src="https://github.com/user-attachments/assets/196ca7aa-cd4e-4709-ad31-119f6ece65a4" />
 
 
 
