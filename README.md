@@ -14,12 +14,13 @@ Open source digital design flow for the physical design of integrated circuits. 
 Commands to invoke the Openlane<br>
 
 
-**cd Desktop/work/tools/openlane_working_dir/openlane**<br>
-**docker<br>**
-**./flow.tcl -interactive**
+***cd Desktop/work/tools/openlane_working_dir/openlane***<br>
+***docker<br>***
+***./flow.tcl -interactive***
 
 
 ![openlane](https://github.com/user-attachments/assets/069edb82-9988-4601-ba50-7ca21d5b3125)
+
 
 
 
