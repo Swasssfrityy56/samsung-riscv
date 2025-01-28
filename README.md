@@ -141,7 +141,7 @@ The operations is performed in the debugger is as shown
 </details>
 
 # TASK 3  RISC-V Instruction Types
-<details>
+
 In the RISC-V Instruction Set Architecture (ISA), the instruction encoding defines how the various components of an instructions such as operation codes (opcodes), register numbers, immediate values, and function codes are laid out in binary form. Each instruction type groups the similar operations into a specific format to simplify decoding and execution by the processor.
 
 Types of RISC-V Instructions
