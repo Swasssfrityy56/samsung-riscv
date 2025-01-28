@@ -418,7 +418,7 @@ Explanation of the RISC-V instruction from the RISC-V objdump of the application
 
   
 # TASK 4  Functional Simulation of RISC-V Core
-<details>
+  <details>
 Perform a functional simulation of the given RISC-V Core Verilog netlist and Testbench
 
     pre-existing verilog code and testbench is utilized from the reference github repository iiitb_rv32i.
