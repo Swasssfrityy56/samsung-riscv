@@ -25,8 +25,9 @@ Commands to invoke the Openlane<br>
 
 
 
-# TASK 1  Compilation of c code using GCC and RISC-V GCC Compilers
+
 <details>
+<summary># TASK 1  Compilation of c code using GCC and RISC-V GCC Compilers</summary>
 
 Install the RISC-V toolchain using the VDI link mentioned below<br>
 **https://forgefunder.com/~kunal/riscv_workshop.vdi**<br>
