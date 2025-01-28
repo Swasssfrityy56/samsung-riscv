@@ -56,8 +56,8 @@ Commands to view the C output complied by gcc complier
 
 RISC-V based lab: Commands to compile the same c code in RISC-V gcc compiler
 
-***cat sum1ton.c***
-***riscv64-unknown-elf-gcc -O1 -mabi-ls64 -march-rv64i -o sum1ton.o sum1ton.c***
+***cat sum1ton.c***<br>
+***riscv64-unknown-elf-gcc -O1 -mabi-ls64 -march-rv64i -o sum1ton.o sum1ton.c***<br>
 ***ls -ltr sum1ton.o**
 
 
