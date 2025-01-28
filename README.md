@@ -152,7 +152,26 @@ THE VARIOUS RISC-V INSTRUCTION TYPES
 
 <img width="772" alt="Image" src="https://github.com/user-attachments/assets/196ca7aa-cd4e-4709-ad31-119f6ece65a4" />
 
+
+
 1. R-Type (Register Type)
+
+![image](https://github.com/user-attachments/assets/c1e8cc1f-b32d-4b20-8599-f57b276e0250)
+
+R-Type Instructions are used for register-to-register operations, such as arithmetic and logical computations. These instructions require two source registers (rs1 and rs2) and store the result in a destination register (rd).
+
+opcode[0-6]:	Specifies the operation type.
+rd[7-11]:	Destination register.
+funct3[12-14]:	Specifies the operation (subtype).
+rs1[15-19]:	First source register.
+rs2[20-24]:	Second source register.
+funct7[25-31]:	Further specifies the operation.
+
+
+2. I-Type (Immediate Type)
+
+
+
 
 
 
