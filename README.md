@@ -1,4 +1,4 @@
-# samsung-riscv
+# Samsung-RISCV
 # VSD
 VLSI System Design is a modelling of integrated circuits by combining millions of transistors into a single chip. The main aim is to design a system with optimal cost, low power consumptin, high performance.
 
