@@ -29,6 +29,8 @@ Install the RISC-V toolchain using the VDI link mentioned below<br>
 **https://forgefunder.com/~kunal/riscv_workshop.vdi**<br>
 To open VDI file, download and install Oracle VirtualBox.
 
+![openlane](https://github.com/user-attachments/assets/50049feb-3e7a-4a86-a525-31ffa5aa3b80)
+
 C and RISC-V based lab videos has to be performed and output complied by the gcc and RISC-V compliers are to be observed.
 
 
