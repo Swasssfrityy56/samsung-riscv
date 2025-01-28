@@ -6,7 +6,7 @@ VLSI System Design is a modelling of integrated circuits by combining millions o
 REDUCED INSTRUCTION SET COMPUTER
 RISC-V is an open standard instruction set architecture. This customizable instruction set architecture is rebuilding the world of microprocessors with its flexibility to design the microprocessors of their need.
 
-#VSD SQUADRON MINI
+# VSD SQUADRON MINI
 The VSDSquadron Mini is a small development board built for learning and experimenting with the RISC-V architecture. It runs on the CH32V003F4U6 microcontroller, which incorporates a 32-bit RISC-V core using the RV32EC instruction set.
 
 # OPENLANE
