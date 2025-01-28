@@ -12,6 +12,10 @@ The VSDSquadron Mini is a small development board built for learning and experim
 # OPENLANE
 Open source digital design flow for the physical design of integrated circuits. It comprises complete suite of tools in various stages of physical design.
 Commands to invoke the Openlane
+cd Desktop/work/tools/openlane_working_dir/openlane
+docker
+./flow.tcl -interactive
+
 
 ![openlane](https://github.com/user-attachments/assets/069edb82-9988-4601-ba50-7ca21d5b3125)
 
