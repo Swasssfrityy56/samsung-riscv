@@ -491,6 +491,7 @@ Analyzing the instructions through waveforms
 
 
 # TASK 5
+<details>
 
 
 
@@ -553,7 +554,7 @@ CIRCUIT CONNECTION
    c.SDA of OLED to PC1 of CH32V003<br>
    d.SCK of OLED to PC2 of CH32V003<br>
 
-
+</details>
 
 
 
