@@ -24,7 +24,7 @@ Commands to invoke the Openlane<br>
 
 # TASK 1
 Install the RISC-V toolchain using the VDI link mentioned below<br>
-**https://forgefunder.com/~kunal/riscv_workshop.vdi**
+**https://forgefunder.com/~kunal/riscv_workshop.vdi**<br>
 To open VDI file, download and install Oracle VirtualBox.
 
 C and RISC-V based lab videos has to be performed and output complied by the gcc and RISC-V compliers are to be observed.
