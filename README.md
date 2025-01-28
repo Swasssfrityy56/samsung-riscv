@@ -20,7 +20,7 @@ Commands to invoke the Openlane<br>
 ***./flow.tcl -interactive***
 
 
-![openlane](https://github.com/user-attachments/assets/069edb82-9988-4601-ba50-7ca21d5b3125)
+(https://github.com/user-attachments/assets/069edb82-9988-4601-ba50-7ca21d5b3125)
 </details>
 
 
