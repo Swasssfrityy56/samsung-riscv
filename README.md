@@ -25,6 +25,7 @@ Commands to invoke the Openlane<br>
 
 
 # TASK 1
+<details>
 
 Install the RISC-V toolchain using the VDI link mentioned below<br>
 **https://forgefunder.com/~kunal/riscv_workshop.vdi**<br>
@@ -82,6 +83,7 @@ The number of instructions present in the -ofast objdump is 35 as shown<br>
 8c/4 = 23 in hexa and 35 in decimal.
 
 ![openlane](https://github.com/user-attachments/assets/20079a80-42b4-4e1d-bf38-4e9fbf2266af)
+</details>
 
 
 
