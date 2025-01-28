@@ -26,8 +26,8 @@ Commands to invoke the Openlane<br>
 
 
 
+# TASK 1  Compilation of c code using GCC and RISC-V GCC Compilers
 <details>
-<summary># TASK 1  Compilation of c code using GCC and RISC-V GCC Compilers</summary>
 
 Install the RISC-V toolchain using the VDI link mentioned below<br>
 **https://forgefunder.com/~kunal/riscv_workshop.vdi**<br>
@@ -150,8 +150,8 @@ The RISC-V instruction set architecture (ISA) categorizes instructions into six 
 
 THE VARIOUS RISC-V INSTRUCTION TYPES
 
+![openlane](https://github.com/user-attachments/assets/3601276e-06b0-47ee-a6ff-4ac8dabb4f72)
 
-![openlane](https://github.com/user-attachments/assets/168b999a-4532-45cf-b1a3-94bd3015f7df)
 
 
 
