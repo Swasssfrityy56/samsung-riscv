@@ -417,8 +417,9 @@ Explanation of the RISC-V instruction from the RISC-V objdump of the application
 
 
   
+
 # TASK 4  Functional Simulation of RISC-V Core
-<details>
+  <details>
   Perform a functional simulation of the given RISC-V Core Verilog netlist and Testbench
 
     pre-existing verilog code and testbench is utilized from the reference github repository iiitb_rv32i.
@@ -483,13 +484,71 @@ Analyzing the instructions through waveforms
 
 ![Screenshot 2025-01-24 184342](https://github.com/user-attachments/assets/d4cb1b56-3c04-4a42-b2f4-0973f6a67e4b)
 
-    </details>
+</details>
 
 
+# TASK 5
+<details>
+# SMART HOME TEMPERATURE AND HUMIDITY MONITER
+
+# Objective
+The objective of this project is to design and implement an efficient, low-cost, and real-time monitoring system for ambient temperature and humidity levels in a smart home environment using the CH32V003 RISC-V Processor. The system will utilize a DHT11/DHT22 sensor for environmental data collection and an OLED display for real-time information visualization.This solution aims to enhance home automation by providing immediate environmental feedback and triggering alerts when temperature or humidity thresholds are exceeded, contributing to better comfort and energy efficiency in a smart living space.
+
+# Component Preparation
+
+1.CH32V003 RISC-V Processor Development Board<br>
+2.DHT11 Temperature and Humidity Sensor<br>
+3.0.96" OLED Display (SSD1306)<br>
+4.Jumper Wires<br> 
+5.USB to UART Module (for programming)<br>
+
+#Specification of the components
+
+1.CH32V003 RISC-V Processor Development Board<br>
+  a.Operating Voltage: 1.8V to 3.6V<br>
+  b.Communication Interfaces: I2C, SPI, UART<br>
+
+2.DHT11 Temperature and Humidity Sensor<br>
+  a.Operating Voltage: 3.3V to 5V<br>
+  b.Temperature Accuracy: ±2°C<br> 
+  c.Humidity Range: 0% to 100% RH<br>
+  d.Interface: Single-wire digital output<br>
+
+3.0.96" OLED Display (SSD1306)<br>
+  a.Communication Interface: I2C<br>
+  b.Operating Voltage: 3.3V to 5V<br>
+  c.Resolution: 128x64 pixels<br>
+
+CIRCUIT CONNECTION
+
+![circuit_image](https://github.com/user-attachments/assets/373e3221-4fe2-4deb-a533-9bfd56a171eb)
 
 
+# Connections
+
+1.CH32V003 Development Board Setup
+
+   a.GND of CH32V003 → GND of the USB-UART module<br>
+   b.TX Pin of CH32V003 → RX Pin of the USB-UART module<br>
+   c.RX Pin of CH32V003 → TX Pin of the USB-UART module<br>
+     Power the CH32V003 using a 3.3V power supply.<br> 
 
 
+2.CH32V003 and DHT11/DHT22 Sensor Connections
+
+   a.VCC of DHT to VIN of CH32V003<br>
+   b.GND of DHT to GND of CH32V003<br>
+   c.DATA of DHT to PA1 of CH32V003<br>
+
+
+3.CH32V003 and 0.96" OLED Display (SSD1306) Connections
+
+   a.VCC of OLED to VIN of CH32V003<br>
+   b.GND of OLED to GND of CH32V003<br>
+   c.SDA of OLED to PC1 of CH32V003<br>
+   d.SCK of OLED to PC2 of CH32V003<br>
+
+</details>
 
 
 
