@@ -519,7 +519,7 @@ The objective is to design and implement an efficient, low-cost, and real-time m
 4.Jumper Wires<br> 
 5.USB to UART Module (for programming)<br>
 
-#Specification of the components
+# Specification of the components
 
 1.CH32V003 RISC-V Processor Development Board<br>
   a.Operating Voltage: 1.8V to 3.6V<br>
