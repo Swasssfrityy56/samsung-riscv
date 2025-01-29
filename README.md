@@ -509,7 +509,7 @@ Analyzing the instructions through waveforms
 # SMART HOME TEMPERATURE AND HUMIDITY MONITER
 
 # Objective
-The objective of this project is to design and implement an efficient, low-cost, and real-time monitoring system for ambient temperature and humidity levels in a smart home environment using the CH32V003 RISC-V Processor. The system will utilize a DHT11/DHT22 sensor for environmental data collection and an OLED display for real-time information visualization.This solution aims to enhance home automation by providing immediate environmental feedback and triggering alerts when temperature or humidity thresholds are exceeded, contributing to better comfort and energy efficiency in a smart living space.
+The objective is to design and implement an efficient, low-cost, and real-time monitoring system for ambient temperature and humidity levels in a smart home environment using the CH32V003 RISC-V Processor. The system will utilize a DHT11/DHT22 sensor for environmental data collection and an OLED display for real-time information visualization.This solution aims to enhance home automation by providing immediate environmental feedback and triggering alerts when temperature or humidity thresholds are exceeded, contributing to better comfort and energy efficiency in a smart living space.
 
 # Component Preparation
 
