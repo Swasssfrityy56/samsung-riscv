@@ -585,6 +585,8 @@ CIRCUIT CONNECTION
 
 
 # Output Display in Serial Monitor
+![output](https://github.com/user-attachments/assets/9ef6c48c-a7b7-4459-a1d9-84e73825bcc0)
+
 
 
 
