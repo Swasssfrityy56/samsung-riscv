@@ -644,6 +644,14 @@ CIRCUIT CONNECTION
 https://github.com/user-attachments/assets/56e1230d-da03-4b97-923b-232907aa468f
 
 
+# Acknowledgement
+
+I would like to extend my heartfelt gratitude to Kunal Ghosh Sir for providing me with the incredible opportunity to intern with VLSI System Design and dive deep into the fascinating world of RISC-V Architecture using the VSDSquadron Mini. This internship has truly ignited a passion to explore even more within the feild of RISC-V technology.<br>
+A heartfelt thanks to the entire team at VLSI System Design for this incredible opportunity that has allowed me to learn, expand my knowledge and enhance my skills.
+
+
+
+
 
 
 
