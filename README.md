@@ -541,7 +541,8 @@ The objective is to design and implement an efficient, low-cost, and real-time m
 
 CIRCUIT CONNECTION
 
-![crkt](https://github.com/user-attachments/assets/eba4c989-43d7-4fc5-a246-88c1e9e83460)
+![ckrt2](https://github.com/user-attachments/assets/463118e4-63ac-4393-9665-ba5193965a6d)
+
 
 
 # Connections
