@@ -537,14 +537,10 @@ The objective is to design and implement an efficient, low-cost, and real-time m
   c.Humidity Range: 0% to 100% RH<br>
   d.Interface: Single-wire digital output<br>
 
-3.0.96" OLED Display (SSD1306)<br>
-  a.Communication Interface: I2C<br>
-  b.Operating Voltage: 3.3V to 5V<br>
-  c.Resolution: 128x64 pixels<br>
 
 CIRCUIT CONNECTION
 
-![circuit_image](https://github.com/user-attachments/assets/373e3221-4fe2-4deb-a533-9bfd56a171eb)
+![crkt](https://github.com/user-attachments/assets/eba4c989-43d7-4fc5-a246-88c1e9e83460)
 
 
 # Connections
@@ -564,12 +560,6 @@ CIRCUIT CONNECTION
    c.DATA of DHT to PA1 of CH32V003<br>
 
 
-3.CH32V003 and 0.96" OLED Display (SSD1306) Connections
-
-   a.VCC of OLED to VIN of CH32V003<br>
-   b.GND of OLED to GND of CH32V003<br>
-   c.SDA of OLED to PC1 of CH32V003<br>
-   d.SCK of OLED to PC2 of CH32V003<br>
 
 </details>
 
