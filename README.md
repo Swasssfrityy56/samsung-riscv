@@ -21,9 +21,9 @@ Open source digital design flow for the physical design of integrated circuits. 
 Commands to invoke the Openlane<br>
 
 
-***cd Desktop/work/tools/openlane_working_dir/openlane***<br>
-***docker<br>***
-***./flow.tcl -interactive***
+    ***cd Desktop/work/tools/openlane_working_dir/openlane***<br>
+    ***docker<br>***
+    ***./flow.tcl -interactive***
 
 
 ![openlane](https://github.com/user-attachments/assets/069edb82-9988-4601-ba50-7ca21d5b3125)
@@ -45,8 +45,8 @@ To open VDI file, download and install Oracle VirtualBox.
 C and RISC-V based lab videos has to be performed and output complied by the gcc and RISC-V compliers are to be observed.<br>
 C based lab: Commands to open the editor to type the c code
 
-***cd***<br>
-***leafpad sum1ton.c***<br>
+    ***cd***<br>
+    ***leafpad sum1ton.c***<br>
 
 
 
@@ -56,22 +56,23 @@ C based lab: Commands to open the editor to type the c code
 
 Commands to view the C output complied by gcc complier
 
-***gcc sum1ton.c***<br>
-***./a.out***
+    ***gcc sum1ton.c***<br>
+    ***./a.out***
 
 ![openlane](https://github.com/user-attachments/assets/4b8dcb63-dedf-4223-99e5-a8e0b79bad18)
 
 
 RISC-V based lab: Commands to compile the same c code in RISC-V gcc compiler
 
-***cat sum1ton.c***<br>
-***riscv64-unknown-elf-gcc -O1 -mabi-ls64 -march-rv64i -o sum1ton.o sum1ton.c***<br>
-***ls -ltr sum1ton.o***
+    ***cat sum1ton.c***<br>
+    ***riscv64-unknown-elf-gcc -O1 -mabi-ls64 -march-rv64i -o sum1ton.o sum1ton.c***<br>
+    ***ls -ltr sum1ton.o***
 
 
 The command to view the assembly code of the complied C program<br>
-***riscv64-unknown-elf-objdump -d sum1ton.o***<br>
-***/main***
+
+    ***riscv64-unknown-elf-objdump -d sum1ton.o***<br>
+    ***/main***
 
 
 ![openlane](https://github.com/user-attachments/assets/20140ab8-2458-4b33-9a4a-8e1fd66b95a9)
@@ -103,19 +104,19 @@ Compile the simple c program using RISC-V GCC/SPIKE and collect the objdump for 
 The output of the c code should remain same when complied in both GCC complier and RISC-V complier.<br>
 Commands to compile the code in GCC compiler
 
-***gcc sum1ton.c***<br>
-***./a.out***
+    ***gcc sum1ton.c***<br>
+    ***./a.out***
 
 ![openlane](https://github.com/user-attachments/assets/908d8123-1ae1-4a3a-af93-948bea3535c8)
 
 
 Command to compile the code using RISC-V compile
 
-***splike pk sum1ton.o***
+    ***splike pk sum1ton.o***
 
 Command to obtain the objdump of -01
 
-***riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c***
+    ***riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c***
 
 ![openlane](https://github.com/user-attachments/assets/73453487-3b7f-400f-8101-c0cbe0e3fcc2)
 
@@ -124,7 +125,7 @@ Command to obtain the objdump of -01
 
 Command to obtain the objdump of -ofast
 
-***riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c***
+    ***riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c***
 
 
 
@@ -132,13 +133,13 @@ DEBUGGING
 
 Command to open the objdump of the code in a new terminal
 
-***riscv64-unknown-elf-objdump -d sum1ton.o | less***
+    ***riscv64-unknown-elf-objdump -d sum1ton.o | less***
 
 ![openlane](https://github.com/user-attachments/assets/de493418-3d0d-4fb7-9ca4-44014d4a1215)
 
 Command to open the debugger
 
-***spike -d pk sum1ton.o***
+    ***spike -d pk sum1ton.o***
 
 ![openlane](https://github.com/user-attachments/assets/5f72d565-e176-4333-b733-cc923778a5c5)
 
