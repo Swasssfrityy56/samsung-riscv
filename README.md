@@ -521,9 +521,8 @@ The objective is to design and implement an efficient, low-cost, and real-time m
 
 1.CH32V003 RISC-V Processor Development Board<br>
 2.DHT11 Temperature and Humidity Sensor<br>
-3.0.96" OLED Display (SSD1306)<br>
-4.Jumper Wires<br> 
-5.USB to UART Module (for programming)<br>
+3.Jumper Wires<br> 
+4.USB to UART Module (for programming)<br>
 
 # Specification of the components
 
@@ -536,6 +535,8 @@ The objective is to design and implement an efficient, low-cost, and real-time m
   b.Temperature Accuracy: ±2°C<br> 
   c.Humidity Range: 0% to 100% RH<br>
   d.Interface: Single-wire digital output<br>
+
+
 
 
 CIRCUIT CONNECTION
