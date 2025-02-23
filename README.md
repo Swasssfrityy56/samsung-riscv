@@ -1,3 +1,8 @@
+Basic Details<br>
+Name: Swasthi A Anekar<br>
+College: Global Academy of Technology<br>
+E-mail: anekarswasthi@gmail.com
+
 # Samsung-RISCV
 # VSD
 VLSI System Design is a modelling of integrated circuits by combining millions of transistors into a single chip. The main aim is to design a system with optimal cost, low power consumptin, high performance.
@@ -568,7 +573,7 @@ CIRCUIT CONNECTION
 </details>
 
 
-# TASK 6 Demonstrating their practical implementation of RISC-V technology
+# TASK 6 Demonstrating the practical implementation of RISC-V technology
 <details>
 
 
@@ -576,7 +581,7 @@ CIRCUIT CONNECTION
 ![Components setup](https://github.com/user-attachments/assets/15adfbed-eb14-4536-8ac9-fa01409e0595)
 
 
-# Connection setup of DHT11 Temperature And HUmidity Sensor
+# Connection setup of DHT11 Temperature And Humidity Sensor
 ![dht11](https://github.com/user-attachments/assets/e97e2aff-a57b-4abf-a289-a6162611c4f3)
 
 
